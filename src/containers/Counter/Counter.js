@@ -10,7 +10,7 @@ import CounterOutput from '../../components/CounterOutput/CounterOutput';
 // import { decrement } from '../../store/actions/actions';
 // import { add } from '../../store/actions/actions';
 // import { subtract } from '../../store/actions/actions';
-import * as actionCreators from '../../store/actions/actions';
+import * as actionCreators from '../../store/actions/index';
 
 class Counter extends Component {
 
