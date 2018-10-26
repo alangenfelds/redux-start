@@ -11,7 +11,7 @@ const reducer = (state = initialState, action) => {
     case actionTypes.STORE_RESULT:
         return {
             ...state,
-            results: state.results.concat({id: new Date(), value: action.counterValue})
+            results: state.results.concat({id: new Date().getTime(), value: action.counterValue})
         };
 
     case actionTypes.DELETE_RESULT:
